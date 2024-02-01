@@ -49,55 +49,55 @@
      </head>
 
             <body>
-              <header class="header">
+              <div id="ff">
+                <h3 id="hd">JVW ARENA
+                   <span class="pp">HOTEL</span>
+                <span class="pp">RESTURANT</span>
+                <span class="pp">BANQUET</span>
+                </h3>
+              </div>   
+               <header class="header">
                 <div class="container">
                   <nav class="navbar flex1">
                     <div class="sticky_logo logo">
-                    
-                      <a href="#home">
-                        <img id="logo" src="images/logo1.png" alt=""></a>
-                      
+                      <img id="logo" src="images/logo1.png" alt="">
                     </div>
-                        
-
-                       
-                    <ul class="nav-menu">
+                      <ul class="nav-menu">
                       <li> <a href="#home">Home</a> </li>
                       <li> <a href="#about">about</a> </li>
                       <!-- <li> <a href="#room">room</a> </li> -->
                       <li> <a href="#services">rooms</a> </li>
                       
                       <li> <a href="#gallary">gallary</a> </li>
-                      <li> <a href="#blog">Restaurant</a> </li>
+                      <li> <a href="#blog">restaurant</a> </li>
                       <li> <a href="#contact">contact us</a> </li>
                     </ul>
-                     <H2>JVW ARENA RESTURANT</H2>
-
                     <div class="hamburger">
                       <span class="bar"></span>
                       <span class="bar"></span>
                       <span class="bar"></span>
                     </div>
                   </nav>
-                  
                 </div>
+                
               </header>
+              
               <script>
-                const hamburger = document.querySelector(".hamburger");
-                const navMenu = document.querySelector(".nav-menu");
+              const hamburger = document.querySelector(".hamburger");
+                  const navMenu = document.querySelector(".nav-menu");
 
-                hamburger.addEventListener("click", mobliemmenu);
+                  hamburger.addEventListener("click", mobliemmenu);
 
-                function mobliemmenu() {
-                  hamburger.classList.toggle("active");
-                  navMenu.classList.toggle("active");
-                }
+                  function mobliemmenu() {
+                    hamburger.classList.toggle("active");
+                    navMenu.classList.toggle("active");
+                  }
 
-                window.addEventListener("scroll", function() {
-                  var header = document.querySelector("header");
-                  header.classList.toggle("sticky", window.scrollY > 0)
-                })
-              </script>
+                  window.addEventListener("scroll", function() {
+                    var header = document.querySelector("header");
+                    header.classList.toggle("sticky", window.scrollY > 0)
+                  })
+                </script>
                <div class="slideshow-container">
 
 <div class="mySlides fade">
@@ -126,15 +126,7 @@
   <span class="dot"></span> 
   <span class="dot"></span> 
 </div>
-
-                   <p>The JVW ARENA is a premium establishment located in the heart of town, Motihari. With a vast area of parking, our facility boasts a well-designed banquet hall that has a classic look and a welcoming ambient.
-The banquet hall is suitable for any kind of event, be it a wedding, engagement, anniversary, birthday, or any other special occasion, along with corporate meetings and conferences.
-In addition to our impressive banquet hall, we also have a multi-cuisine, spacious restaurant. The restaurant offers a diverse menu to cater to various tastes and
-preferences. We also have a well-decorated lounge area with enchanting lights and sound systems.
-As for our accommodation options, we offer a variety of rooms to suit different preferences. These include suite rooms, premium deluxe rooms, deluxe rooms, and
-Standard Rooms. Each room is designed with comfort and style in mind, ensuring an enjoyable stay for our guests. Each room has all the necessary luxurious amenities and a unique design of wooden flooring, one of its kind in Bihar.
-
-</p>
+                
                  </div>
                  <script>
                     let slideIndex = 0;
@@ -154,7 +146,7 @@ Standard Rooms. Each room is designed with comfort and style in mind, ensuring a
                       }
                       slides[slideIndex-1].style.display = "block";  
                       dots[slideIndex-1].className += " active";
-                      setTimeout(showSlides, 2000); // Change image every 2 seconds
+                      setTimeout(showSlides, 3000); // Change image every 2 seconds
                     }
                     </script>
             
@@ -165,24 +157,16 @@ Standard Rooms. Each room is designed with comfort and style in mind, ensuring a
                   
                     <div class="left">
                      
-                      <div  id="aut"></div>
-                      <p>All areas are under CCTV cameras and fire safety,  Lift, wifi, parking,
-                         we provide wooden floor rooms, all rooms are fully AC, 
-                        and we provide all the latest amenities like minibars,
-                        and one of the best  peps company mattresses, All rooms are interior designed,
-                        wifi, bathtub in side suit rooms</p><p>
-                          Our Mission
-                            At JVW Arena, we strive to provide our guests with top-notch service, comfortable accommodations, and exquisite 
-                          amenities. We also provide fresh, authentic multi-cuisine with a focus on better ingredients and healthier, more hygienic food options.
-                        well-trained staff, hygienic foods, designed sofas, and chair, selfie point,
-                          inbuilt music, awesome view outside, fully AC building, 
-                          mchandra Banquet & confrence hall with new interior design, music system, 
-                            the capacity of up to 150 people, projector with screen, standee, stage, 
-                            odium, mice, etc, up to 400-600 guests can enjoy outside the hotel, designer lights,</p>
-                          <p>hotel jvw arena is a unit of jvw hospilitaies pvt.ltd.
-                          Its a private limited company 
-                            JVW comes from jaiswal vivid world</p>
-                          </p>
+                         <div  id="aut"></div>
+                              <p>   <p>The JVW ARENA is a premium establishment located in the heart of town, Motihari. With a vast area of parking, our facility boasts a well-designed banquet hall that has a classic look and a welcoming ambient.
+        The banquet hall is suitable for any kind of event, be it a wedding, engagement, anniversary, birthday, or any other special occasion, along with corporate meetings and conferences.
+        In addition to our impressive banquet hall, we also have a multi-cuisine, spacious restaurant. The restaurant offers a diverse menu to cater to various tastes and
+        preferences. We also have a well-decorated lounge area with enchanting lights and sound systems.
+        As for our accommodation options, we offer a variety of rooms to suit different preferences. These include suite rooms, premium deluxe rooms, deluxe rooms, and
+        Standard Rooms. Each room is designed with comfort and style in mind, ensuring an enjoyable stay for our guests. Each room has all the necessary luxurious amenities and a unique design of wooden flooring, one of its kind in Bihar.
+
+        </p></p>
+                                  </p>
                     
                     </div>
                     <div class="right">
@@ -240,10 +224,9 @@ Standard Rooms. Each room is designed with comfort and style in mind, ensuring a
                           <i class="fas fa-star"></i>
                           <i class="fas fa-star"></i>
                         </div>
-                        <p> Maintain your fitness routine with complimentary access to our well-equipped fitness center.
-
-                                  Indulge in the epitome of comfort and luxury with our
-                                Deluxe Single Room.</p>
+                        <p> Our single room has all the necessary amenities for a single person, room having 
+                          a perfect size for accommodation we provide amenities like dental kit,tea kettle soft
+                           mattress</p>
                         <h5>From 1599</h5>
                         
                       </div>
@@ -323,7 +306,7 @@ Standard Rooms. Each room is designed with comfort and style in mind, ensuring a
                     </div>
                   </div>
                   <div class="item">
-                    <img src="images/10.jpeg" alt="">
+                    <img src="images/456.jpg" alt="">
                     <div class="overlay">
                       <i class="fab fa-instagram"></i>
                     </div>
@@ -353,7 +336,7 @@ Standard Rooms. Each room is designed with comfort and style in mind, ensuring a
                     </div>
                   </div>
                   <div class="item">
-                    <img src="images/12.jpeg" alt="">
+                    <img src="image/1.JPG" alt="">
                     <div class="overlay">
                       <i class="fab fa-instagram"></i>
                     </div>
@@ -393,7 +376,8 @@ Standard Rooms. Each room is designed with comfort and style in mind, ensuring a
                 })
             </script>
             <section class="blog top" id="blog">
-                  <h5 id="iii">OUR RESTURANT MENU</h5>
+                  <h5 id="iii">JVW ARENA</h5>
+                  <h6 id="yy">A multi cuisine restaurant</h6>
                     <h3 id="ttt"> JVW Arena, a brand-new multi-cuisine restaurant in Motihari.
                        Whether you’re in the mood for something spicy or sweet, we’ve got a huge range of
                         authentic  cuisines available on menu. We’re excited to serve you delicious food.</h3>
@@ -432,7 +416,7 @@ Standard Rooms. Each room is designed with comfort and style in mind, ensuring a
                       <form action="https://api.web3forms.com/submit" method="POST">
                   
                     <input type="hidden" name="access_key" value="9c56356b-3bb8-4a1b-aebc-e53a1007ca39">
-                    <label for="name">name</label>
+                    <label for="name">Name</label>
                     <input type="text" id="name" name="name" required>
 
                     <label for="email">Email:</label>
@@ -450,7 +434,7 @@ Standard Rooms. Each room is designed with comfort and style in mind, ensuring a
 
       
           <div id="as">
-              <h4 id="hh">Director's me..</h4>
+              <h4 id="hh">Director's massagre</h4>
                     <p id="pra"> 
                     Nothing makes you feel better than when you get
                     into a hotel bed, and the sheets feel so good.
@@ -476,8 +460,9 @@ Standard Rooms. Each room is designed with comfort and style in mind, ensuring a
                 </div>
 
                 <div class="contact-method">
-                  <img src="https://th.bing.com/th?id=OIP.zDsa2MoFeghUwytLWnDKwwHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="Phone Icon">
-                  <a> 9031041800</a>
+                  <img src="https://th.bing.com/th/id/OIP.GLoOQRsVhv62XpfX3rRbXQHaHl?w=162&h=180&c=7&r=0&o=5&pid=1.7" alt="WhatsApp Logo">
+                        <a href="https://wa.me/9031041800" target="_blank" title="Chat with us on WhatsApp">WhatsApp</a>
+                               
                    <!-- <p>hoteljvwarena@gmail.com</p>
                   <p>NH28A, Chhatauni-Bettiah Road, Matthiya Zirat, Motihari, Bihar, 845401 -->
 
